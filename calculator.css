@@ -1,0 +1,231 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+.calculator
+{
+    width: 202px;
+    margin: 0 auto;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.body 
+{
+    background: grey;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* .calculator input
+{
+   width: auto;
+   border: 1px solid black;
+   padding: 20px;
+   text-align: center;
+   color: white;
+   border-radius: 1px;
+} */
+
+
+.calculator-buttons
+{
+    display: grid;
+    padding: auto;
+    grid-template-columns: 50px 50px 50px 50px;
+}
+
+.calculator-button
+{
+    background:  grey;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    cursor: auto;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.calculator-button-div
+{
+    background-color: orange;
+    color:white;
+}
+
+.calculator-button-x
+{
+    background-color: orange;
+    color:white;
+}
+
+.calculator-button--
+{
+    background-color: orange;
+    color:white;
+}
+
+.calculator-button-plus
+{
+    background-color: orange;
+    color:white;
+}
+
+
+.calculator-button-equals
+{
+    background-color: orange;
+    color:white;
+    
+}
+
+.calculator-button-7
+{
+    background-color: darkgrey;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    cursor: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.calculator-button-8
+{
+    background-color: darkgrey;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    cursor: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.calculator-button-9
+{
+    background-color: darkgrey;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    cursor: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.calculator-button-4
+{
+    background-color: darkgrey;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    cursor: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.calculator-button-5
+{
+    background-color: darkgrey;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    cursor: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.calculator-button-6
+{
+    background-color: darkgrey;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    cursor: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.calculator-button-1
+{
+    background-color: darkgrey;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    cursor: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.calculator-button-2
+{
+    background-color: darkgrey;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    cursor: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.calculator-button-3
+{
+    background-color: darkgrey;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    cursor: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.calculator-button-0
+{
+    background-color: darkgrey;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    cursor: auto;
+    width: 100px;
+    text-align: center;
+    padding: 15px;
+}
+
+.calculator-button-period
+{
+    background-color: darkgrey;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    cursor: auto;
+    text-align: center;
+    padding: 15px;
+    
+    
+}
+
+ .output_container
+{
+    margin: 5px;
+} 
+
+.outputV
+{
+    background-color:gray;
+    text-decoration: none;
+    /* padding: 40px; */
+    width: 200px;
+    height: 54px;
+    color: lightgray;
+    size: "50";
+    margin: 0;
+    font-size: 50px;
+    text-align: right;
+  
+} 
+
+.container
+{
+    margin-top: 3px;
+}
